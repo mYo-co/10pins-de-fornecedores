@@ -1,1 +1,0 @@
-const els=document.querySelectorAll('.features article,.steps article,.bonus,.audience div,.section details');const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('show');io.unobserve(e.target)}}),{threshold:.08});els.forEach(e=>{e.classList.add('reveal');io.observe(e)});
